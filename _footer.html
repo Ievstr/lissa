@@ -1,0 +1,502 @@
+    <footer class="footer">
+  <div class="footer__inner">
+    <div class="container container_padding">
+      <div class="footer__content">
+        <div class="footer__left">
+          <a href="#" class="logo">
+            <svg width="215" height="38">
+              <use xlink:href="./img/sprites/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <div class="footer__copy">© 2015-2021 Полиграфический комплекс ЛИССА</div>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">Услуги</a></li>
+            <li><a href="#">Дизайн</a></li>
+            <li><a href="#">Печать и нанесение</a></li>
+            <li><a href="#">Индивидуальный пошив</a></li>
+            <li><a href="#">Кастомизация текстиля</a></li>
+            <li><a href="#">Разработка мерча</a></li>
+            <li><a href="#">Разработка товаров под СТМ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">О компании</a></li>
+            <li><a href="#">Опыт и достижения</a></li>
+            <li><a href="#">Производство</a></li>
+            <li><a href="#">Документы и реквизиты</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Акции и спецпредложения</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">Проекты</a></li>
+            <li><a href="#" class="button button_other">Каталог</a></li>
+            <li><a href="#" class="button button_other">Блог</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__info">
+        <div class="footer__info-item">
+          <div class="footer__info-title">Телефон для связи:</div>
+          <div class="footer__info-group">
+            <a href="tel:+78125651315" class="footer__info-link button button_other">+7 (812) 565-13-15</a>
+            <a href="tel:+79119251315" class="footer__info-link button button_other">+7 (911) 925-13-15</a>
+          </div>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Почта для расчета заказов:</div>
+          <a href="mailto:zakaz@lissa.ru" class="footer__info-link button button_other">zakaz@lissa.ru</a>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Почта для поставщиков, подрядчиков, предложений по сотрудничеству:</div>
+          <a href="mailto:info@lissa.ru" class="footer__info-link button button_other">info@lissa.ru</a>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Адрес</div>
+          <a href="#" class="footer__info-text button button_other">СПБ, ул. Рентгена, д. 5Б</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-item">2026 ©</div>
+        <a href="#" class="footer__bottom-item">Политика конфиденциальности</a>
+        <a href="#" class="footer__bottom-item">Сайт сделан в PetrogradWeb</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <div class="popup" id="popup">
+	<div class="popup__wrap">
+		<div class="popup__content">
+			<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+				<svg width="24" height="24">
+					<use xlink:href="./img/sprites/sprite.svg#close"></use>
+				</svg>
+			</button>
+			<div class="popup__inner">
+				<div class="popup__heading">
+					<div class="popup__title">Оставить заявку</div>
+				</div>
+				<div class="popup__body">
+					<div class="popup__tab">
+						<button type="button" class="popup__tab-item js-popup-tab-item popup__tab-item_active" data-tab="1">Получить
+							консультацию</button>
+						<button type="button" class="popup__tab-item js-popup-tab-item" data-tab="2">Оставить заявку</button>
+					</div>
+					<div class="popup__tab-block js-popup-tab-block popup__tab-block_active" data-tab="1">
+						<form action="#" class="form" id="popup-form-consultation">
+							<div class="form__content">
+								<label class="label"> <!-- label_error - класс для ошибок полей -->
+									<input type="text" placeholder="ФИО*" required>
+									<span class="label__error">Поле обязательно к заполнению</span>
+								</label>
+								<label class="label">
+									<input type="tel" placeholder="Телефон*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="email" placeholder="Email*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<textarea placeholder="Комментарий"></textarea>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+							</div>
+							<div class="form__bottom">
+								<div class="form__privacy">
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен с условиями договора оферты и политики конфиденциальности</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения информационного характера</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения рекламного характера</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="popup__tab-block js-popup-tab-block" data-tab="2">
+						<form action="#" class="form" id="popup-form-request">
+							<div class="form__content">
+								<div class="form__tag">Контактное лицо</div>
+								<label class="label"> <!-- label_error - класс для ошибок полей -->
+									<input type="text" placeholder="ФИО*" required>
+									<span class="label__error">Поле обязательно к заполнению</span>
+								</label>
+								<label class="label">
+									<input type="tel" placeholder="Телефон*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="email" placeholder="Email*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<div class="form__tag">Макеты</div>
+								<label class="label">
+									<input type="text" placeholder="Тираж">
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<div class="select2-block">
+									<select class="select2 js-select2" data-placeholder="Вид изделия">
+										<option></option>
+										<option value="1">Открытка</option>
+										<option value="2">Буклет</option>
+										<option value="3">Листовка</option>
+										<option value="4">Брошюра</option>
+										<option value="5">Книга</option>
+										<option value="6">Журнал/Каталог</option>
+										<option value="7">Евробуклет</option>
+										<option value="8">Блокнот</option>
+										<option value="9">Книга</option>
+									</select>
+								</div>
+								<label class="label">
+									<textarea placeholder="Комментарий"></textarea>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="text" placeholder="Ссылка на макет">
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+							</div>
+							<div class="form__bottom">
+								<div class="file js-file">
+  <label class="file__label">
+    <input type="file" class="visually-hidden js-file-input" multiple accept="application/pdf, .doc">
+    <span class="file__icon">
+      <svg width="24" height="24">
+        <use xlink:href="./img/sprites/sprite.svg#paperclip"></use>
+      </svg>
+    </span>
+    <span class="file__title">Прикрепить файл</span>
+  </label>
+  <div class="file__document js-file-document"></div>
+</div>
+								<div class="form__privacy">
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен с условиями договора оферты и политики конфиденциальности</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения информационного характера</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения рекламного характера</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="popup__bottom">
+					<button class="popup__button button js-popup-form-bind" form="popup-form-consultation">Отправить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup_filter" id="popup-filter">
+  <div class="popup__wrap">
+    <div class="popup__content">
+      <button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+      	<svg width="24" height="24">
+      		<use xlink:href="./img/sprites/sprite.svg#close"></use>
+      	</svg>
+      </button>
+      <div class="popup__filter">
+        <div class="popup__filter-heading">
+          <div class="popup__filter-title">Фильтры по отрослям</div>
+        </div>
+        <div class="popup__filter-body">
+					<ul class="popup__filter-list">
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Рестораны, бары, кафе</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Медицинские организации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Образовательные организации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Театры</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Музеи</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Рекламные агентства</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">IT-компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Отели, глэмпинги, гостиницы</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Спортивные клубы и федерации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Банки</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Горно-промышленные компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Нефте-газовые компаниии</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Транспортные компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Производство продуктов питания</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Ритейл</span>
+							</label>
+						</li>
+					</ul>
+        </div>
+        <div class="popup__filter-bottom">
+					<button type="button" class="popup__filter-button button"> <!-- active - класс для выбранного фильтра -->
+						Применить
+						<span class="popup__filter-button-icon">
+							<svg width="10" height="10">
+								<use xlink:href="./img/sprites/sprite.svg#plus-2"></use>
+							</svg>
+						</span>
+						<span class="popup__filter-button-count">2</span>
+					</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup_info" id="popup-info">
+  <div class="popup__wrap">
+    <div class="popup__content">
+			<div class="popup__info">
+				<div class="popup__info-text">
+					<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+						<svg width="24" height="24">
+							<use xlink:href="./img/sprites/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__info-title">Буше. Полиграфия для своих</div>
+					<div class="popup__info-description">
+						<p>
+							Материальное воплощение фразы «быть живым в каждый момент времени». Лаконичные, стильные и очень «бушевные» аксессуары.
+						</p>
+					</div>
+				</div>
+				<div class="popup__info-media">
+					<div class="popup__info-media-item">
+						<picture>
+							<source srcset="./img/content/letter.webp" type="image/webp">
+							<img src="./img/content/letter.jpg" alt="img" loading="lazy">
+						</picture>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup_info" id="popup-production">
+  <div class="popup__wrap">
+    <div class="popup__content">
+			<div class="popup__info">
+				<div class="popup__info-text">
+					<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+						<svg width="24" height="24">
+							<use xlink:href="./img/sprites/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__info-title">Швейное производство</div>
+					<div class="popup__info-description">
+						<p>
+							Перед началом любой работы мы внимательно выслушаем клиента. Его потребности, трудности в выполнении каких-либо работ, пожелания. <br>
+							Форма обратной связи с нами любая удобная для клиента: <br>
+							Электронная почта <br>
+							Рабочий телефон <br>
+							Мобильный телефон <br>
+							Мессенджеры <br>
+							Единственное правило при общении с клиентом: финальное техническое задание закрепляется в Приложении к Договору, или в электронном письме, если работа не предполагает заключение разового / долговременного договора и приложений к нему.
+							Компания «Лисса» начала работу как небольшое производство, располагая двумя старыми печатными станками.
+						</p>
+						<p>
+							Перед началом любой работы мы внимательно выслушаем клиента. Его потребности, трудности в выполнении каких-либо работ, пожелания. <br>
+							Форма обратной связи с нами любая удобная для клиента: <br>
+							Электронная почта <br>
+							Рабочий телефон <br>
+							Мобильный телефон <br>
+							Мессенджеры <br>
+							Единственное правило при общении с клиентом: финальное техническое задание закрепляется в Приложении к Договору, или в электронном письме, если работа не предполагает заключение разового / долговременного договора и приложений к нему.
+							Компания «Лисса» начала работу как небольшое производство, располагая двумя старыми печатными станками.
+						</p>
+					</div>
+				</div>
+				<div class="popup__info-media">
+					<div class="popup__info-media-gallery">
+						<div class="swiper popup__info-slider js-popup-info-slider">
+							<div class="swiper-wrapper popup__info-slider-wrapper">
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/info.webp" type="image/webp">
+										<img src="./img/content/info.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-2.webp" type="image/webp">
+										<img src="./img/content/gallery-2.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-3.webp" type="image/webp">
+										<img src="./img/content/gallery-3.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-4.webp" type="image/webp">
+										<img src="./img/content/gallery-4.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="swiper popup__info-thumbs js-popup-info-thumbs">
+							<div class="swiper-wrapper popup__info-thumbs-wrapper">
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/info.webp" type="image/webp">
+										<img src="./img/content/info.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-2.webp" type="image/webp">
+										<img src="./img/content/gallery-2.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-3.webp" type="image/webp">
+										<img src="./img/content/gallery-3.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-4.webp" type="image/webp">
+										<img src="./img/content/gallery-4.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./libs/jquery.inputmask.min.js"></script>
+    <script src="./libs/select2/select2.min.js"></script>
+    <script src="./libs/gsap/gsap.min.js"></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js"></script>
+    <script src="./libs/gsap/MorphSVGPlugin.min.js"></script>
+    <script src="./libs/gsap/SplitText.min.js"></script>
+    <script src="./libs/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+
+    
+  </body>
+</html>

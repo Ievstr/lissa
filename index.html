@@ -1,0 +1,1568 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Лисса</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="stylesheet" href="./libs/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./libs/select2/select2.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    
+  </head>
+  <body>
+    <header class="header js-header">
+  <div class="header__top">
+    <div class="container">
+      
+        <div class="header__info">
+          <div class="header__info-item">
+            <div class="header__info-title">Адрес:</div>
+            <div class="header__info-text">197101, Санкт-Петербург, ул. Рентгена, д. 5Б</div>
+          </div>
+          <div class="header__info-item">
+            <div class="header__info-title">Почта для заказа:</div>
+            <a href="mailto:zakaz@lissa.ru" class="header__info-text">zakaz@lissa.ru</a>
+          </div>
+          <div class="header__info-item">
+            <div class="header__info-title">Единый телефон:</div>
+            <a href="tel:+78125651315" class="header__info-text">+7 (812) 565-13-15</a>
+          </div>
+        </div>
+      
+      
+    </div>
+  </div>
+  <div class="container">
+    <div class="header__body">
+      <a href="#" class="logo">
+        
+          <svg width="137" height="29">
+            <use xlink:href="./img/sprites/sprite.svg#logo"></use>
+          </svg>
+        
+        
+      </a>
+      <div class="header__content">
+        
+          <button class="header__button button js-popup-up" data-target="#popup">
+            Оставить заявку
+            <svg width="24" height="24">
+              <use xlink:href="./img/sprites/sprite.svg#plus"></use>
+            </svg>
+          </button>
+          <nav class="nav">
+  <ul class="nav__list">
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">О компании</a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">Проекты</a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">Контакты</a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">Каталог</a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">Услуги</a>
+      </li>
+    
+      <li class="nav__item">
+        <a href="#" class="nav__link">Журнал</a>
+      </li>
+    
+  </ul>
+</nav>
+        
+        
+      </div>
+      <div class="header__search">
+        <button type="button" class="header__search-button js-search-button" aria-label="Поиск">
+          <svg width="24" height="24">
+            <use xlink:href="./img/sprites/sprite.svg#search"></use>
+          </svg>
+        </button>
+        <div class="header__search-content">
+          <div class="header__search-inner">
+            <div class="header__search-body">
+              <div class="search">
+  <div class="search__inner">
+    <form action="#" class="form">
+      <div class="form__content">
+        <label class="label">
+          <input type="search" placeholder="" value="">
+        </label>
+        <button class="form__button button">Искать</button>
+      </div>
+    </form>
+  </div>
+</div>
+              <button type="button" class="header__search-close js-search-close" aria-label="Закрыть поиск">
+                <svg width="24" height="24">
+                  <use xlink:href="./img/sprites/sprite.svg#close"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="header__search-result">
+              <ul class="header__search-result-list">
+                <li>
+                  <a href="#" class="header__search-result-link">Цифровая <span>печать</span></a>
+                </li>
+                <li>
+                  <a href="#" class="header__search-result-link">Буклеты</a>
+                </li>
+                <li>
+                  <a href="#" class="header__search-result-link">Календари</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button type="button" class="burger js-burger" aria-label="Меню">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+<main class="main">
+  <section class="hero gallery">
+  <div class="gallery__content">
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-1.webp" type="image/webp">
+        <img src="./img/content/gallery-1.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-2.webp" type="image/webp">
+        <img src="./img/content/gallery-2.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-3.webp" type="image/webp">
+        <img src="./img/content/gallery-3.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-4.webp" type="image/webp">
+        <img src="./img/content/gallery-4.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-2.webp" type="image/webp">
+        <img src="./img/content/gallery-2.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="0">
+      <picture>
+        <source srcset="./img/content/gallery-3.webp" type="image/webp">
+        <img src="./img/content/gallery-3.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="1">
+      <picture>
+        <source srcset="./img/content/news-1.webp" type="image/webp">
+        <img src="./img/content/news-1.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="1">
+      <picture>
+        <source srcset="./img/content/news-2.webp" type="image/webp">
+        <img src="./img/content/news-2.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="2">
+      <picture>
+        <source srcset="./img/content/news-3.webp" type="image/webp">
+        <img src="./img/content/news-3.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="2">
+      <picture>
+        <source srcset="./img/content/news-4.webp" type="image/webp">
+        <img src="./img/content/news-4.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="3">
+      <picture>
+        <source srcset="./img/content/news-5.webp" type="image/webp">
+        <img src="./img/content/news-5.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="3">
+      <picture>
+        <source srcset="./img/content/news-6.webp" type="image/webp">
+        <img src="./img/content/news-6.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="4">
+      <picture>
+        <source srcset="./img/content/news-7.webp" type="image/webp">
+        <img src="./img/content/news-7.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item" data-gallery="5">
+      <picture>
+        <source srcset="./img/content/service-1.webp" type="image/webp">
+        <img src="./img/content/service-1.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+  </div>
+  <div class="hero__decor">
+    <svg viewBox="0 0 560 560" width="560" height="560">
+      <path class="hero__decor-svg" fill="#E0E1E8" d="M280 526C280 435.425 353.425 362 444 362V526H280Z M116 362C116 452.575 189.425 526 280 526V362H116Z M280 362C280 271.425 353.425 198 444 198V362H280Z M116 198 H280 V362 H116 Z M280 198C280 107.425 206.575 34 116 34V198H280Z"/>
+      <path class="hero__decor-target" d="M280 526C280 435.425 353.425 362 444 362V526H280Z M116 362C116 452.575 189.425 526 280 526V362H116Z M280 362C280 271.425 353.425 198 444 198V362H280Z M116 198 H280 V362 H116 Z M280 198C280 107.425 206.575 34 116 34V198H280Z"/>
+      <path class="hero__decor-target" d="M280 1.99999C397.637 2 493 97.3633 493 215V215L280 215L280 1.99999V1.99999Z M67 344.878C67 462.515 162.363 557.878 280 557.878V557.878V344.878H67V344.878Z M493 215C493 332.637 397.637 428 280 428V428L280 215L493 215V215Z M280 131.878C162.363 131.878 67 227.241 67 344.878V344.878L280 344.878L280 131.878V131.878Z"/>
+      <path class="hero__decor-target" d="M540 69C540 130.257 518.815 186.565 483.373 231H540C540 374.594 423.594 491 280 491V69H540Z M280 69V491C136.406 491 20 374.594 20 231H76.627C41.185 186.565 20 130.257 20 69H280Z"/>
+      <path class="hero__decor-target" d="M540 280C540 423.594 423.594 540 280 540V540L280 280L540 280V280Z M280 280C423.594 280 540 163.594 540 20.0001V20.0001L280 20L280 280V280Z M280 540C136.406 540 20 423.594 20 280V280L280 280L280 540V540Z M280 20C136.406 20 20 136.406 20 280V280L280 280L280 20V20Z"/>
+      <path class="hero__decor-target" d="M540 540C396.406 540 280 423.594 280 280V280L540 280L540 540V540Z M280 280C280 136.406 163.594 20 20.0001 20V20L20 280L280 280V280Z M280 280C280 136.406 396.406 20 540 20V20L540 280L280 280V280Z M20.0001 540C163.594 540 280 423.594 280 280V280L20 280L20.0001 540V540Z"/>
+      <path class="hero__decor-target" d="M280 540C280 396.406 396.406 280 540 280V280V540H280V540Z M20.0001 280C163.594 280 280 163.594 280 20.0001V20.0001L20.0001 20.0001L20.0001 280V280Z M540 280C396.406 280 280 163.594 280 20.0001V20.0001L540 20.0001L540 280V280Z M280 540C280 396.406 163.594 280 20.0001 280V280L20.0001 540L280 540V540Z"/>
+    </svg>
+  </div>
+  <div class="container container_padding">
+    <div class="hero__content">
+      <div class="hero__tabs">
+        <button type="button" class="hero__tab active">
+          <div class="hero__tab-progress">
+            <span>Лисса</span>
+          </div>
+          <span>Лисса</span>
+        </button>
+        <button type="button" class="hero__tab">
+          <div class="hero__tab-progress">
+            <span>Полиграфия</span>
+          </div>
+          <span>Полиграфия</span>
+        </button>
+        <button type="button" class="hero__tab">
+          <div class="hero__tab-progress">
+            <span>Текстиль</span>
+          </div>
+          <span>Текстиль</span>
+        </button>
+        <button type="button" class="hero__tab">
+          <div class="hero__tab-progress">
+            <span>Ресторанам</span>
+          </div>
+          <span>Ресторанам</span>
+        </button>
+        <button type="button" class="hero__tab">
+          <div class="hero__tab-progress">
+            <span>Спортивные</span>
+          </div>
+          <span>Спортивные</span>
+        </button>
+        <button type="button" class="hero__tab">
+          <div class="hero__tab-progress">
+            <span>Бизнесу</span>
+          </div>
+          <span>Бизнесу</span>
+        </button>
+      </div>
+
+      <div class="hero__text-wrap">
+        <div class="hero__text active">
+          <h1 class="hero__title js-marquee">Лисса</h1>
+          <div class="hero__description">
+            <p>Полиграфия, реклама, брендирование</p>
+          </div>
+          <a href="#" class="hero__button button button_white">О компании</a>
+        </div>
+
+        <div class="hero__text">
+          <h2 class="hero__title js-marquee">Полиграфия</h2>
+          <div class="hero__description">
+            <p>Полиграфия, полиграфия</p>
+          </div>
+          <a href="#" class="hero__button button button_white">Подробнее</a>
+        </div>
+
+        <div class="hero__text">
+          <h2 class="hero__title js-marquee">Текстиль</h2>
+          <div class="hero__description">
+            <p>Полиграфия, текстиль</p>
+          </div>
+          <a href="#" class="hero__button button button_white">Подробнее</a>
+        </div>
+
+        <div class="hero__text">
+          <h2 class="hero__title js-marquee">Ресторанам</h2>
+          <div class="hero__description">
+            <p>Полиграфия, ресторанам</p>
+          </div>
+          <a href="#" class="hero__button button button_white">Подробнее</a>
+        </div>
+
+        <div class="hero__text">
+          <h2 class="hero__title js-marquee">Спортивные</h2>
+          <div class="hero__description">
+            <p>Полиграфия, спортивные</p>
+          </div>
+          <a href="#" class="hero__button button button_white">Подробнее</a>
+        </div>
+
+        <div class="hero__text">
+          <h2 class="hero__title js-marquee">Бизнесу</h2>
+          <div class="hero__description">
+            <p>Полиграфия, бизнесу</p>
+          </div>
+          <a href="#" class="hero__button button button_white">Подробнее</a>
+        </div>
+      </div>
+
+      <div class="gallery__thumbs">
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-1.webp" type="image/webp">
+            <img src="./img/content/gallery-1.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-2.webp" type="image/webp">
+            <img src="./img/content/gallery-2.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-3.webp" type="image/webp">
+            <img src="./img/content/gallery-3.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-4.webp" type="image/webp">
+            <img src="./img/content/gallery-4.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-2.webp" type="image/webp">
+            <img src="./img/content/gallery-2.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="0">
+          <picture>
+            <source srcset="./img/content/gallery-3.webp" type="image/webp">
+            <img src="./img/content/gallery-3.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="1">
+          <picture>
+            <source srcset="./img/content/news-1.webp" type="image/webp">
+            <img src="./img/content/news-1.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="1">
+          <picture>
+            <source srcset="./img/content/news-2.webp" type="image/webp">
+            <img src="./img/content/news-2.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="2">
+          <picture>
+            <source srcset="./img/content/news-3.webp" type="image/webp">
+            <img src="./img/content/news-3.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="2">
+          <picture>
+            <source srcset="./img/content/news-4.webp" type="image/webp">
+            <img src="./img/content/news-4.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="3">
+          <picture>
+            <source srcset="./img/content/news-5.webp" type="image/webp">
+            <img src="./img/content/news-5.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="3">
+          <picture>
+            <source srcset="./img/content/news-6.webp" type="image/webp">
+            <img src="./img/content/news-6.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="4">
+          <picture>
+            <source srcset="./img/content/news-7.webp" type="image/webp">
+            <img src="./img/content/news-7.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="gallery__thumbs-item" data-gallery="5">
+          <picture>
+            <source srcset="./img/content/service-1.webp" type="image/webp">
+            <img src="./img/content/service-1.jpg" width="60" height="60" alt="img" loading="lazy">
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="clients">
+  <div class="container">
+    <div class="clients__content">
+      <div class="swiper clients__ticker js-clients-ticker">
+        <div class="swiper-wrapper clients__ticker-wrapper">
+          <div class="swiper-slide clients__ticker-item">
+            <a href="#" class="client-card">
+  <div class="client-card__title">ОАО РЖД</div>
+  <div class="client-card__logo">
+    <picture>
+      <img src="./img/content/client-1.svg" width="124" height="72" alt="img" loading="lazy">
+    </picture>
+  </div>
+</a>
+          </div>
+          <div class="swiper-slide clients__ticker-item">
+            <a href="#" class="client-card">
+  <div class="client-card__title">Газпром Нефть, Газпром Инвест</div>
+  <div class="client-card__logo">
+    <picture>
+      <img src="./img/content/client-2.svg" width="124" height="72" alt="img" loading="lazy">
+    </picture>
+  </div>
+</a>
+          </div>
+          <div class="swiper-slide clients__ticker-item">
+            <a href="#" class="client-card">
+  <div class="client-card__title">АО "Петербургская сбытовая компания" (ПСК)</div>
+  <div class="client-card__logo">
+    <picture>
+      <img src="./img/content/client-3.svg" width="124" height="72" alt="img" loading="lazy">
+    </picture>
+  </div>
+</a>
+          </div>
+          <div class="swiper-slide clients__ticker-item">
+            <a href="#" class="client-card">
+  <div class="client-card__title">Icon (Nokian) Tyres</div>
+  <div class="client-card__logo">
+    <picture>
+      <img src="./img/content/client-4.svg" width="124" height="72" alt="img" loading="lazy">
+    </picture>
+  </div>
+</a>
+          </div>
+          <div class="swiper-slide clients__ticker-item">
+            <a href="#" class="client-card">
+  <div class="client-card__title">Ресторанный холдинг "Бюро"</div>
+  <div class="client-card__logo">
+    <picture>
+      <img src="./img/content/client-5.png" width="124" height="72" alt="img" loading="lazy">
+    </picture>
+  </div>
+</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="portfolio">
+  <div class="container">
+    <div class="portfolio__content">
+      <a href="#" class="portfolio__card">
+        <div class="portfolio__card-img">
+          <picture>
+            <source srcset="./img/content/portfolio-1.webp" type="image/webp">
+            <img src="./img/content/portfolio-1.jpg" width="375" height="400" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="portfolio__card-text">
+          <div class="portfolio__card-title">Буше. Полиграфия для своих</div>
+          <div class="portfolio__card-button button button_white">Подробнее</div>
+        </div>
+      </a>
+      <a href="#" class="portfolio__card gallery">
+        <div class="gallery__content">
+          <div class="gallery__item">
+            <picture>
+              <source srcset="./img/content/gallery-frank.webp" type="image/webp">
+              <img src="./img/content/gallery-frank.jpg" alt="img" loading="lazy">
+            </picture>
+          </div>
+        </div>
+        <div class="portfolio__card-text">
+          <div class="portfolio__card-title">FRANK. Аппетитный дизайн</div>
+          <div class="portfolio__card-button button button_white">Подробнее</div>
+        </div>
+        <div class="gallery__thumbs">
+          <div class="gallery__thumbs-item">
+            <picture>
+              <source srcset="./img/content/gallery-frank.webp" type="image/webp">
+              <img src="./img/content/gallery-frank.jpg" width="60" height="60" alt="img" loading="lazy">
+            </picture>
+          </div>
+        </div>
+      </a>
+      <a href="#" class="portfolio__card">
+        <div class="portfolio__card-img">
+          <picture>
+            <source srcset="./img/content/portfolio-2.webp" type="image/webp">
+            <img src="./img/content/portfolio-2.jpg" width="375" height="400" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="portfolio__card-text">
+          <div class="portfolio__card-title">Salone pasta&bar. Упаковка решает</div>
+          <div class="portfolio__card-button button button_white">Подробнее</div>
+        </div>
+      </a>
+      <a href="#" class="more gallery">
+  <div class="gallery__content">
+    <div class="gallery__item">
+      <picture>
+        <source srcset="./img/content/gallery-1.webp" type="image/webp">
+        <img src="./img/content/gallery-1.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item">
+      <picture>
+        <source srcset="./img/content/gallery-2.webp" type="image/webp">
+        <img src="./img/content/gallery-2.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item">
+      <picture>
+        <source srcset="./img/content/gallery-3.webp" type="image/webp">
+        <img src="./img/content/gallery-3.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+    <div class="gallery__item">
+      <picture>
+        <source srcset="./img/content/gallery-4.webp" type="image/webp">
+        <img src="./img/content/gallery-4.jpg" alt="img" loading="lazy">
+      </picture>
+    </div>
+  </div>
+  <div class="more__content">
+    <div class="more__title">+30 работ</div>
+    <div class="more__button button">
+      
+        Все проекты
+      
+      
+    </div>
+    <div class="gallery__thumbs">
+      <div class="gallery__thumbs-item">
+        <picture>
+          <source srcset="./img/content/gallery-1.webp" type="image/webp">
+          <img src="./img/content/gallery-1.jpg" width="60" height="60" alt="img" loading="lazy">
+        </picture>
+      </div>
+      <div class="gallery__thumbs-item">
+        <picture>
+          <source srcset="./img/content/gallery-2.webp" type="image/webp">
+          <img src="./img/content/gallery-2.jpg" width="60" height="60" alt="img" loading="lazy">
+        </picture>
+      </div>
+      <div class="gallery__thumbs-item">
+        <picture>
+          <source srcset="./img/content/gallery-3.webp" type="image/webp">
+          <img src="./img/content/gallery-3.jpg" width="60" height="60" alt="img" loading="lazy">
+        </picture>
+      </div>
+      <div class="gallery__thumbs-item">
+        <picture>
+          <source srcset="./img/content/gallery-4.webp" type="image/webp">
+          <img src="./img/content/gallery-4.jpg" width="60" height="60" alt="img" loading="lazy">
+        </picture>
+      </div>
+    </div>
+  </div>
+</a>
+    </div>
+  </div>
+</div>
+  <div class="advantages ">
+  <div class="container">
+    <div class="advantages__content">
+      <div class="advantage-card">
+  <div class="advantage-card__title">Автоматизация</div>
+  <div class="advantage-card__description">
+    <p>ERP-система «Лисса IT» для упрощения приёма заказов</p>
+  </div>
+</div><div class="advantage-card">
+  <div class="advantage-card__title">Парк автомобилей</div>
+  <div class="advantage-card__description">
+    <p>Собственные грузовые автомобили и выстроенная логистика</p>
+  </div>
+</div><div class="advantage-card">
+  <div class="advantage-card__title">Системный подход в&nbsp;работе</div>
+  <div class="advantage-card__description">
+    <p>Организованность бизнес-процессов и соблюдение сроков производства</p>
+  </div>
+</div><div class="advantage-card">
+  <div class="advantage-card__title">Комплексный подход к работе</div>
+  <div class="advantage-card__description">
+    <p>От разработки макетов до производства заказа и логистики</p>
+  </div>
+</div><div class="advantage-card">
+  <div class="advantage-card__title">Гарантия качества</div>
+  <div class="advantage-card__description">
+    <p>Мощное оборудование позволяет соответствовать стандартам качества</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+  <section class="promotion ">
+  <div class="container container_padding">
+    <div class="promotion__content">
+      <a href="#" class="promotion__link">
+        <h2 class="promotion__title">ЖПП</h2>
+        <div class="promotion__box">
+          <div class="promotion__box-bracket">
+            <svg width="28" height="116">
+              <use xlink:href="./img/sprites/sprite.svg#bracket"></use>
+            </svg>
+          </div>
+          <div class="promotion__box-inner">
+            <div class="promotion__box-media">
+              <video src="./video/promotion.mp4" loop muted autoplay playsinline></video>
+            </div>
+            <div class="promotion__box-arrow">
+              <svg width="24" height="24">
+                <use xlink:href="./img/sprites/sprite.svg#arrow-small"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="promotion__box-bracket">
+            <svg width="28" height="116">
+              <use xlink:href="./img/sprites/sprite.svg#bracket"></use>
+            </svg>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+  <section class="services js-services">
+  <div class="container">
+    <div class="services__body">
+      <div class="services__heading">
+        <h2 class="services__title">Фирменный стиль, полиграфия, корпоративные издания, консалтинг и препресс</h2>
+        <a href="#" class="services__button button">Все услуги</a>
+        <div class="services__media">
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/service-media-1.webp" type="image/webp">
+              <img src="./img/content/service-media-1.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/gallery-1.webp" type="image/webp">
+              <img src="./img/content/gallery-1.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/gallery-2.webp" type="image/webp">
+              <img src="./img/content/gallery-2.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/gallery-3.webp" type="image/webp">
+              <img src="./img/content/gallery-3.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/gallery-4.webp" type="image/webp">
+              <img src="./img/content/gallery-4.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+          <div class="services__media-item">
+            <picture>
+              <source srcset="./img/content/news-1.webp" type="image/webp">
+              <img src="./img/content/news-1.jpg" width="768" height="1080" alt="img" loading="lazy">
+            </picture>
+          </div>
+        </div>
+        <div class="services__decor">
+          <svg viewBox="0 0 560 560" width="168" height="168">
+            <path class="services__decor-svg" fill="#E0E1E8" d="M280 526C280 435.425 353.425 362 444 362V526H280Z M116 362C116 452.575 189.425 526 280 526V362H116Z M280 362C280 271.425 353.425 198 444 198V362H280Z M116 198 H280 V362 H116 Z M280 198C280 107.425 206.575 34 116 34V198H280Z"/>
+            <path class="services__decor-target" d="M280 526C280 435.425 353.425 362 444 362V526H280Z M116 362C116 452.575 189.425 526 280 526V362H116Z M280 362C280 271.425 353.425 198 444 198V362H280Z M116 198 H280 V362 H116 Z M280 198C280 107.425 206.575 34 116 34V198H280Z"/>
+            <path class="services__decor-target" d="M280 1.99999C397.637 2 493 97.3633 493 215V215L280 215L280 1.99999V1.99999Z M67 344.878C67 462.515 162.363 557.878 280 557.878V557.878V344.878H67V344.878Z M493 215C493 332.637 397.637 428 280 428V428L280 215L493 215V215Z M280 131.878C162.363 131.878 67 227.241 67 344.878V344.878L280 344.878L280 131.878V131.878Z"/>
+            <path class="services__decor-target" d="M540 69C540 130.257 518.815 186.565 483.373 231H540C540 374.594 423.594 491 280 491V69H540Z M280 69V491C136.406 491 20 374.594 20 231H76.627C41.185 186.565 20 130.257 20 69H280Z"/>
+            <path class="services__decor-target" d="M540 280C540 423.594 423.594 540 280 540V540L280 280L540 280V280Z M280 280C423.594 280 540 163.594 540 20.0001V20.0001L280 20L280 280V280Z M280 540C136.406 540 20 423.594 20 280V280L280 280L280 540V540Z M280 20C136.406 20 20 136.406 20 280V280L280 280L280 20V20Z"/>
+            <path class="services__decor-target" d="M540 540C396.406 540 280 423.594 280 280V280L540 280L540 540V540Z M280 280C280 136.406 163.594 20 20.0001 20V20L20 280L280 280V280Z M280 280C280 136.406 396.406 20 540 20V20L540 280L280 280V280Z M20.0001 540C163.594 540 280 423.594 280 280V280L20 280L20.0001 540V540Z"/>
+            <path class="services__decor-target" d="M280 540C280 396.406 396.406 280 540 280V280V540H280V540Z M20.0001 280C163.594 280 280 163.594 280 20.0001V20.0001L20.0001 20.0001L20.0001 280V280Z M540 280C396.406 280 280 163.594 280 20.0001V20.0001L540 20.0001L540 280V280Z M280 540C280 396.406 163.594 280 20.0001 280V280L20.0001 540L280 540V540Z"/>
+          </svg>
+        </div>
+      </div>
+      <div class="services__content">
+        <div class="swiper services__slider js-services-slider">
+          <div class="swiper-wrapper services__slider-wrapper">
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-1.webp" type="image/webp">
+        <img src="./img/content/service-1.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Дизайн</div>
+    <div class="service-card__description">
+      <p>Фирменный стиль, полиграфия, корпоративные издания, консалтинг и препресс.</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-2.webp" type="image/webp">
+        <img src="./img/content/service-2.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Разработка товаров под СТМ</div>
+    <div class="service-card__description">
+      <p>Производим продукцию под вашей торговой маркой с полным сопровождением. Контролируем качество на всех этапах — от разработки до выпуска.</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-1.webp" type="image/webp">
+        <img src="./img/content/service-1.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Печать и нанесение</div>
+    <div class="service-card__description">
+      <p>Выполняем печать и нанесение на различных материалах с использованием современных технологий. Подбираем оптимальный способ под задачу, тираж и бюджет.</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-2.webp" type="image/webp">
+        <img src="./img/content/service-2.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Индивидуальный пошив</div>
+    <div class="service-card__description">
+      <p>Разрабатываем и отшиваем изделия с нуля: от подбора материалов до готовой продукции. Учитываем особенности бренда и требования к качеств</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-1.webp" type="image/webp">
+        <img src="./img/content/service-1.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Кастомизация текстиля</div>
+    <div class="service-card__description">
+      <p>Фирменный стиль, полиграфия, корпоративные издания, консалтинг и препресс.</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+            <div class="swiper-slide services__slider-item js-services-item">
+              <a href="#" class="service-card">
+  
+    <div class="service-card__img">
+      <picture>
+        <source srcset="./img/content/service-2.webp" type="image/webp">
+        <img src="./img/content/service-2.jpg" width="285" height="285" alt="img" loading="lazy">
+      </picture>
+    </div>
+  
+  <div class="service-card__text">
+    <div class="service-card__title">Разработка мерча</div>
+    <div class="service-card__description">
+      <p>Создаём мерч под задачи компании: от идеи и дизайна до производства и упаковки. Упор на практичность и визуальную привлекательность.</p>
+    </div>
+    
+      <div class="service-card__more">Подробнее</div>
+    
+  </div>
+</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="services__shape">
+        <picture>
+          <source srcset="./img/content/about.webp" type="image/webp">
+          <img src="./img/content/about.jpg" width="1920" height="1080" alt="img" loading="lazy">
+        </picture>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="about">
+  <div class="about__img">
+    <picture>
+      <source srcset="./img/content/about.webp" type="image/webp">
+      <img src="./img/content/about.jpg" width="1920" height="1551" alt="img" loading="lazy">
+    </picture>
+  </div>
+  <div class="about__inner">
+    <div class="container container_padding">
+      <div class="about__content">
+        <div class="about__heading">
+          <h2 class="about__title">Больше чем типография</h2>
+          <a href="#" class="about__button button button_white">О компании</a>
+        </div>
+        <div class="about__items">
+          <div class="about__item">
+            <div class="about__item-description">
+              <p>
+                Мы – рекламно-производственная компания «Лисса», более 10 лет работаем на рынке полиграфии и мерча. В 2025 года открыли швейный цех и создаем базовую одежду для людей и бизнеса.
+              </p>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__item-title">> 1000 <span>M<sup>2</sup></span></div>
+            <div class="about__item-description">
+              <p>в самом центре Санкт-Петербурга</p>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__item-title">> 500</div>
+            <div class="about__item-description">
+              <p>постоянных клиентов, база клиентов 1000 российских компаний</p>
+            </div>
+          </div>
+
+          <div class="about__item">
+            <div class="about__item-title">> 100</div>
+            <div class="about__item-description">
+              <p>единиц оборудования</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <div class="reviews ">
+  <div class="container">
+    <div class="reviews__body">
+      <div class="reviews__heading">
+        <div class="reviews__title">Отзывы</div>
+      </div>
+      <div class="reviews__content">
+        <div class="review-card">
+  <div class="review-card__text">
+    <div class="review-card__title">Буше. Полиграфия для своих</div>
+    <div class="review-card__description">
+      <p>Материальное воплощение фразы «быть живым в каждый момент времени». Лаконичные, стильные и очень «бушевные» аксессуары.</p>
+    </div>
+  </div>
+  <button type="button" class="review-card__button button">Читать письмо</button>
+</div><div class="review-card">
+  <div class="review-card__text">
+    <div class="review-card__title">FRANK. Аппетитный дизайн</div>
+    <div class="review-card__description">
+      <p>Многолетнее сотрудничество с FRANK by БАСТА — пример того, как типография становится частью экосистемы крупного ресторанного бренда. Мы очень рады, что помогаем поддерживать единый высокий стандарт оформления во всех точках присутствия бренда — от Санкт-Петербурга до Дубая.</p>
+    </div>
+  </div>
+  <button type="button" class="review-card__button button">Читать письмо</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+  <section class="promotion promotion_grey">
+  <div class="container container_padding">
+    <div class="promotion__content">
+      <a href="#" class="promotion__link">
+        <h2 class="promotion__title">Карьера</h2>
+        <div class="promotion__box">
+          <div class="promotion__box-bracket">
+            <svg width="28" height="116">
+              <use xlink:href="./img/sprites/sprite.svg#bracket"></use>
+            </svg>
+          </div>
+          <div class="promotion__box-inner">
+            <div class="promotion__box-media">
+              <video src="./video/promotion.mp4" loop muted autoplay playsinline></video>
+            </div>
+            <div class="promotion__box-arrow">
+              <svg width="24" height="24">
+                <use xlink:href="./img/sprites/sprite.svg#arrow-small"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="promotion__box-bracket">
+            <svg width="28" height="116">
+              <use xlink:href="./img/sprites/sprite.svg#bracket"></use>
+            </svg>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+  <section class="history js-history">
+  <div class="container container_padding">
+    <div class="history__content">
+      <h2 class="history__title js-history-title">Становление «Лисса»</h2>
+      <div class="history__media">
+        <div class="history__media-item js-history-media-item">
+          <picture>
+            <source srcset="./img/content/gallery-1.webp" type="image/webp">
+            <img src="./img/content/gallery-1.jpg" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="history__media-item js-history-media-item">
+          <video src="./video/work.mp4" loop muted autoplay playsinline></video>
+        </div>
+        <div class="history__media-item js-history-media-item">
+          <picture>
+            <source srcset="./img/content/history-media-1.webp" type="image/webp">
+            <img src="./img/content/history-media-1.jpg" alt="img" loading="lazy">
+          </picture>
+        </div>
+        <div class="history__media-item js-history-media-item">
+          <picture>
+            <source srcset="./img/content/production.webp" type="image/webp">
+            <img src="./img/content/production.jpg" alt="img" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="swiper history__slider js-history-slider">
+        <div class="swiper-wrapper history__slider-wrapper">
+          <div class="swiper-slide history__slider-item js-history-item">
+            <div class="history__slider-item-year">2015</div>
+            <div class="history__slider-item-title">Основание типографии</div>
+            <div class="history__slider-item-description">
+              <p>
+                5 первых полиграфических станков. Самый «молодой» чешский печатный станок «Доминант» 1984 года выпуска. В компании четыре постоянных работника: руководитель – он же менеджер по работе с клиентами, дизайнер, печатник офсетной печати и резчик.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide history__slider-item js-history-item">
+            <div class="history__slider-item-year">2018</div>
+            <div class="history__slider-item-title">Расширение производства</div>
+            <div class="history__slider-item-description">
+              <p>
+                Куплена двухсекционная офсетная печатная машина, для печати пантонов. Множество новой постпечатной техники. Большая часть заказов перемещается в «цифру». База клиентов увеличивается. Штат компании вырастает до 10 человек.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide history__slider-item js-history-item">
+            <div class="history__slider-item-year">2021-2022</div>
+            <div class="history__slider-item-title">Рост после кризиса</div>
+            <div class="history__slider-item-description">
+              <p>
+                Последствия пандемии пройдены, компания идет на осознанный риск и переезжает, увеличивая площади до 500 м². Появление первой печатной техники для нанесения на сувенирную продукцию – машины Mimaki и разнообразные граверы. Штат цифровой техники пополнился машинами класса pro. Компания увеличилась до 15 человек.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide history__slider-item js-history-item">
+            <div class="history__slider-item-year">2025-2026</div>
+            <div class="history__slider-item-title">Стабильное развитие</div>
+            <div class="history__slider-item-description">
+              <p>
+                2025-2026 – штат компании расширился до 30 сотрудников. Открыт швейный цех 150м², площади полиграфического и сувенирного производства увеличены до 1000 м². Приобретена машина LeCore 60 для печати DTF и оборудование для термопереноса. Запуск глобальной смены позиционирования компании от типографии к рекламно-производственной компании.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="offer">
+  <a href="#" class="offer__link" aria-label="Оставить заявку"></a>
+  <div class="offer__img">
+    <picture>
+      <source srcset="./img/content/offer.webp" type="image/webp">
+      <img src="./img/content/offer.jpg" width="1920" height="813" alt="img" loading="lazy">
+    </picture>
+  </div>
+  <div class="container container_padding">
+    <div class="offer__content">
+      <div class="offer__text">
+        <h2 class="offer__title">Свяжитесь с&nbsp;нами</h2>
+        <div class="offer__button button">Оставить заявку</div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+    <footer class="footer">
+  <div class="footer__inner">
+    <div class="container container_padding">
+      <div class="footer__content">
+        <div class="footer__left">
+          <a href="#" class="logo">
+            <svg width="215" height="38">
+              <use xlink:href="./img/sprites/sprite.svg#logo"></use>
+            </svg>
+          </a>
+          <div class="footer__copy">© 2015-2021 Полиграфический комплекс ЛИССА</div>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">Услуги</a></li>
+            <li><a href="#">Дизайн</a></li>
+            <li><a href="#">Печать и нанесение</a></li>
+            <li><a href="#">Индивидуальный пошив</a></li>
+            <li><a href="#">Кастомизация текстиля</a></li>
+            <li><a href="#">Разработка мерча</a></li>
+            <li><a href="#">Разработка товаров под СТМ</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">О компании</a></li>
+            <li><a href="#">Опыт и достижения</a></li>
+            <li><a href="#">Производство</a></li>
+            <li><a href="#">Документы и реквизиты</a></li>
+            <li><a href="#">Оплата и доставка</a></li>
+            <li><a href="#">Вакансии</a></li>
+            <li><a href="#">Новости</a></li>
+            <li><a href="#">Акции и спецпредложения</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <ul class="footer__list">
+            <li><a href="#" class="button button_other">Проекты</a></li>
+            <li><a href="#" class="button button_other">Каталог</a></li>
+            <li><a href="#" class="button button_other">Блог</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__info">
+        <div class="footer__info-item">
+          <div class="footer__info-title">Телефон для связи:</div>
+          <div class="footer__info-group">
+            <a href="tel:+78125651315" class="footer__info-link button button_other">+7 (812) 565-13-15</a>
+            <a href="tel:+79119251315" class="footer__info-link button button_other">+7 (911) 925-13-15</a>
+          </div>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Почта для расчета заказов:</div>
+          <a href="mailto:zakaz@lissa.ru" class="footer__info-link button button_other">zakaz@lissa.ru</a>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Почта для поставщиков, подрядчиков, предложений по сотрудничеству:</div>
+          <a href="mailto:info@lissa.ru" class="footer__info-link button button_other">info@lissa.ru</a>
+        </div>
+        <div class="footer__info-item">
+          <div class="footer__info-title">Адрес</div>
+          <a href="#" class="footer__info-text button button_other">СПБ, ул. Рентгена, д. 5Б</a>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-item">2026 ©</div>
+        <a href="#" class="footer__bottom-item">Политика конфиденциальности</a>
+        <a href="#" class="footer__bottom-item">Сайт сделан в PetrogradWeb</a>
+      </div>
+    </div>
+  </div>
+</footer>
+    <div class="popup" id="popup">
+	<div class="popup__wrap">
+		<div class="popup__content">
+			<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+				<svg width="24" height="24">
+					<use xlink:href="./img/sprites/sprite.svg#close"></use>
+				</svg>
+			</button>
+			<div class="popup__inner">
+				<div class="popup__heading">
+					<div class="popup__title">Оставить заявку</div>
+				</div>
+				<div class="popup__body">
+					<div class="popup__tab">
+						<button type="button" class="popup__tab-item js-popup-tab-item popup__tab-item_active" data-tab="1">Получить
+							консультацию</button>
+						<button type="button" class="popup__tab-item js-popup-tab-item" data-tab="2">Оставить заявку</button>
+					</div>
+					<div class="popup__tab-block js-popup-tab-block popup__tab-block_active" data-tab="1">
+						<form action="#" class="form" id="popup-form-consultation">
+							<div class="form__content">
+								<label class="label"> <!-- label_error - класс для ошибок полей -->
+									<input type="text" placeholder="ФИО*" required>
+									<span class="label__error">Поле обязательно к заполнению</span>
+								</label>
+								<label class="label">
+									<input type="tel" placeholder="Телефон*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="email" placeholder="Email*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<textarea placeholder="Комментарий"></textarea>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+							</div>
+							<div class="form__bottom">
+								<div class="form__privacy">
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен с условиями договора оферты и политики конфиденциальности</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения информационного характера</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения рекламного характера</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="popup__tab-block js-popup-tab-block" data-tab="2">
+						<form action="#" class="form" id="popup-form-request">
+							<div class="form__content">
+								<div class="form__tag">Контактное лицо</div>
+								<label class="label"> <!-- label_error - класс для ошибок полей -->
+									<input type="text" placeholder="ФИО*" required>
+									<span class="label__error">Поле обязательно к заполнению</span>
+								</label>
+								<label class="label">
+									<input type="tel" placeholder="Телефон*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="email" placeholder="Email*" required>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<div class="form__tag">Макеты</div>
+								<label class="label">
+									<input type="text" placeholder="Тираж">
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<div class="select2-block">
+									<select class="select2 js-select2" data-placeholder="Вид изделия">
+										<option></option>
+										<option value="1">Открытка</option>
+										<option value="2">Буклет</option>
+										<option value="3">Листовка</option>
+										<option value="4">Брошюра</option>
+										<option value="5">Книга</option>
+										<option value="6">Журнал/Каталог</option>
+										<option value="7">Евробуклет</option>
+										<option value="8">Блокнот</option>
+										<option value="9">Книга</option>
+									</select>
+								</div>
+								<label class="label">
+									<textarea placeholder="Комментарий"></textarea>
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+								<label class="label">
+									<input type="text" placeholder="Ссылка на макет">
+									<span class="label__error">Сообщение об ошибке</span>
+								</label>
+							</div>
+							<div class="form__bottom">
+								<div class="file js-file">
+  <label class="file__label">
+    <input type="file" class="visually-hidden js-file-input" multiple accept="application/pdf, .doc">
+    <span class="file__icon">
+      <svg width="24" height="24">
+        <use xlink:href="./img/sprites/sprite.svg#paperclip"></use>
+      </svg>
+    </span>
+    <span class="file__title">Прикрепить файл</span>
+  </label>
+  <div class="file__document js-file-document"></div>
+</div>
+								<div class="form__privacy">
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен с условиями договора оферты и политики конфиденциальности</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения информационного характера</span>
+									</label>
+									<label class="label label_checkbox">
+										<input type="checkbox" class="visually-hidden">
+										<span class="label__box"></span>
+										<span class="label__text">Я согласен получать сообщения рекламного характера</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="popup__bottom">
+					<button class="popup__button button js-popup-form-bind" form="popup-form-consultation">Отправить</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popup popup_filter" id="popup-filter">
+  <div class="popup__wrap">
+    <div class="popup__content">
+      <button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+      	<svg width="24" height="24">
+      		<use xlink:href="./img/sprites/sprite.svg#close"></use>
+      	</svg>
+      </button>
+      <div class="popup__filter">
+        <div class="popup__filter-heading">
+          <div class="popup__filter-title">Фильтры по отрослям</div>
+        </div>
+        <div class="popup__filter-body">
+					<ul class="popup__filter-list">
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Рестораны, бары, кафе</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Медицинские организации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Образовательные организации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Театры</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Музеи</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Рекламные агентства</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">IT-компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Отели, глэмпинги, гостиницы</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Спортивные клубы и федерации</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Банки</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Горно-промышленные компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Нефте-газовые компаниии</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Транспортные компании</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Производство продуктов питания</span>
+							</label>
+						</li>
+						<li>
+							<label class="label label_checkbox">
+								<input type="checkbox" class="visually-hidden">
+								<span class="label__box"></span>
+								<span class="label__text">Ритейл</span>
+							</label>
+						</li>
+					</ul>
+        </div>
+        <div class="popup__filter-bottom">
+					<button type="button" class="popup__filter-button button"> <!-- active - класс для выбранного фильтра -->
+						Применить
+						<span class="popup__filter-button-icon">
+							<svg width="10" height="10">
+								<use xlink:href="./img/sprites/sprite.svg#plus-2"></use>
+							</svg>
+						</span>
+						<span class="popup__filter-button-count">2</span>
+					</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup_info" id="popup-info">
+  <div class="popup__wrap">
+    <div class="popup__content">
+			<div class="popup__info">
+				<div class="popup__info-text">
+					<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+						<svg width="24" height="24">
+							<use xlink:href="./img/sprites/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__info-title">Буше. Полиграфия для своих</div>
+					<div class="popup__info-description">
+						<p>
+							Материальное воплощение фразы «быть живым в каждый момент времени». Лаконичные, стильные и очень «бушевные» аксессуары.
+						</p>
+					</div>
+				</div>
+				<div class="popup__info-media">
+					<div class="popup__info-media-item">
+						<picture>
+							<source srcset="./img/content/letter.webp" type="image/webp">
+							<img src="./img/content/letter.jpg" alt="img" loading="lazy">
+						</picture>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+<div class="popup popup_info" id="popup-production">
+  <div class="popup__wrap">
+    <div class="popup__content">
+			<div class="popup__info">
+				<div class="popup__info-text">
+					<button type="button" class="popup__close js-popup-close" aria-label="Закрыть модальное окно">
+						<svg width="24" height="24">
+							<use xlink:href="./img/sprites/sprite.svg#close"></use>
+						</svg>
+					</button>
+					<div class="popup__info-title">Швейное производство</div>
+					<div class="popup__info-description">
+						<p>
+							Перед началом любой работы мы внимательно выслушаем клиента. Его потребности, трудности в выполнении каких-либо работ, пожелания. <br>
+							Форма обратной связи с нами любая удобная для клиента: <br>
+							Электронная почта <br>
+							Рабочий телефон <br>
+							Мобильный телефон <br>
+							Мессенджеры <br>
+							Единственное правило при общении с клиентом: финальное техническое задание закрепляется в Приложении к Договору, или в электронном письме, если работа не предполагает заключение разового / долговременного договора и приложений к нему.
+							Компания «Лисса» начала работу как небольшое производство, располагая двумя старыми печатными станками.
+						</p>
+						<p>
+							Перед началом любой работы мы внимательно выслушаем клиента. Его потребности, трудности в выполнении каких-либо работ, пожелания. <br>
+							Форма обратной связи с нами любая удобная для клиента: <br>
+							Электронная почта <br>
+							Рабочий телефон <br>
+							Мобильный телефон <br>
+							Мессенджеры <br>
+							Единственное правило при общении с клиентом: финальное техническое задание закрепляется в Приложении к Договору, или в электронном письме, если работа не предполагает заключение разового / долговременного договора и приложений к нему.
+							Компания «Лисса» начала работу как небольшое производство, располагая двумя старыми печатными станками.
+						</p>
+					</div>
+				</div>
+				<div class="popup__info-media">
+					<div class="popup__info-media-gallery">
+						<div class="swiper popup__info-slider js-popup-info-slider">
+							<div class="swiper-wrapper popup__info-slider-wrapper">
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/info.webp" type="image/webp">
+										<img src="./img/content/info.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-2.webp" type="image/webp">
+										<img src="./img/content/gallery-2.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-3.webp" type="image/webp">
+										<img src="./img/content/gallery-3.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-slider-item">
+									<picture>
+										<source srcset="./img/content/gallery-4.webp" type="image/webp">
+										<img src="./img/content/gallery-4.jpg" width="960" height="1080" alt="img" loading="lazy">
+									</picture>
+								</div>
+							</div>
+						</div>
+						<div class="swiper popup__info-thumbs js-popup-info-thumbs">
+							<div class="swiper-wrapper popup__info-thumbs-wrapper">
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/info.webp" type="image/webp">
+										<img src="./img/content/info.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-2.webp" type="image/webp">
+										<img src="./img/content/gallery-2.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-3.webp" type="image/webp">
+										<img src="./img/content/gallery-3.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+								<div class="swiper-slide popup__info-thumbs-item">
+									<picture>
+										<source srcset="./img/content/gallery-4.webp" type="image/webp">
+										<img src="./img/content/gallery-4.jpg" width="80" height="80" alt="img" loading="lazy">
+									</picture>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+  </div>
+</div>
+
+    <script src="./libs/jquery-3.5.1.min.js"></script>
+    <script src="./libs/swiper/swiper-bundle.min.js"></script>
+    <script src="./libs/jquery.inputmask.min.js"></script>
+    <script src="./libs/select2/select2.min.js"></script>
+    <script src="./libs/gsap/gsap.min.js"></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js"></script>
+    <script src="./libs/gsap/MorphSVGPlugin.min.js"></script>
+    <script src="./libs/gsap/SplitText.min.js"></script>
+    <script src="./libs/lenis.min.js"></script>
+    <script src="js/main.js"></script>
+
+    
+  </body>
+</html>
